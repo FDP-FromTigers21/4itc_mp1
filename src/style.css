@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    width: 60px;
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-items > li {
+    padding: 10px;
+  }
+
+
+  * {
+    font-family: 'Staatliches';
+  }
+
+  ol li{
+    text-shadow: 5px 3px 5px #000000;
+    font-size: 24px;
+  }
+
+  ul li {
+    font-size: 24px;
+  }
+
+
+  .certif {
+    margin-left: 20px;
+    text-shadow: 6px 3px 5px #000000;
+    font-size: 24px;
+    color:#00fde8;
+  }
+
+
+  header {
+    background-color: #000000; 
+  }
+
+  header li {
+    color:#FFFFFF;
+    font-size: 40px;
+  }
+
+  .dshbrd {
+    margin-left: 20px;
+    text-align: left;
+    font-size: 60px;
+  }
+
+  .dshbrd img {
+    float: right;
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 19%;
+    height: 19%;
+  }
+
+
+  .title {
+    margin-left: 3%;
+    font-size: 30px;
+  }
+
+  div {
+    background-image: linear-gradient(125deg, #616161, #FFFFFF, #1d0085);
+  }
+
+  footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #000000;
+  }
+
+  footer small {
+    color: #FFFFFF;
+  }
+
